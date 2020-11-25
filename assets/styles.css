@@ -1,0 +1,39 @@
+html,
+body,
+header,
+#intro {
+    display: flex;
+}
+
+#intro {
+  background: linear-gradient(120deg, #56b9b4 20%, #8fd3f4 100%) center center fixed;
+}
+
+.intro-text {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+  color: white;
+}
+
+.icons {
+  width: 90%;
+  position: absolute;
+  top: 60%;
+}
+
+.icon {
+  margin-left: 18%;
+  font-size: 150px;
+  color: white;
+}
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 3s;
+}
+
+.animate__animated.animate__zoomIn {
+  --animate-duration: 3s;
+}
